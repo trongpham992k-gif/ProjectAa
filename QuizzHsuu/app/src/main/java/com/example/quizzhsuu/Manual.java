@@ -8,15 +8,15 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 
-public class QuestionSetup extends Activity {
+public class Manual extends Activity {
     Button BT;
     @SuppressLint("WrongViewCast")
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.questionsetup);
+        setContentView(R.layout.manual);
 
-        BT = (Button) findViewById(R.id.continute_btn);
-//
+        BT = (Button) findViewById(R.id.BtnBackFromMainMenu);
+
         BT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,5 +24,4 @@ public class QuestionSetup extends Activity {
             }
         });
     }
-
 }

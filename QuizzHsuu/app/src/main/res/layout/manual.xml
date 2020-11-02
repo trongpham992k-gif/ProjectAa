@@ -7,40 +7,42 @@
     android:background="#CAF982">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="121dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/header" />
-
-    <ImageView
-        android:id="@+id/imageViewMainmenu"
-        android:layout_width="227dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginBottom="162dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/mainmenu"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/manualsc" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="356dp"
-        android:layout_height="405dp"
+        android:layout_width="376dp"
+        android:layout_height="243dp"
+        android:layout_marginBottom="120dp"
         android:text="Buoc 1: vao lam bai\n Buoc 2: xem diem cao\n Buoc 3: Thoat"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/BtnBackFromMainMenu"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="164dp" />
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/BtnBackFromMainMenu"
+        android:layout_width="227dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="44dp"
+        android:foreground="@drawable/mainblue"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

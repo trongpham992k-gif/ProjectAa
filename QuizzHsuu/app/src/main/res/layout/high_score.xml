@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageViewMainmenu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CAF982">
@@ -15,20 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/header" />
-
-    <ImageView
-        android:id="@+id/imageViewMainmenu"
-        android:layout_width="227dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="148dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginBottom="162dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/mainmenu"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -46,13 +33,11 @@
         android:layout_height="77dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="60dp"
-        android:layout_marginBottom="29dp"
         android:text="You Have Chosen Correct"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/imageViewMainmenu"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints" />
@@ -69,4 +54,14 @@
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="227dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="94dp"
+        android:foreground="@drawable/mainmenu"
+        android:text="Button"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="114dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
