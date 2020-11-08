@@ -9,33 +9,28 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button BT1, BT2, BT3, BT4 ;
+    Button Manual, Quit, HighScore, SetupHighScore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        BT1 = (Button)findViewById(R.id.start_btn);
-        BT2 = (Button)findViewById(R.id.viewcode_btn);
-        BT3 = (Button)findViewById(R.id.manual_btn);
-        BT4 = (Button)findViewById(R.id.exit_btn);
 
-        BT1.setOnClickListener(new View.OnClickListener() {
+        Manual = (Button)findViewById(R.id.btn_manual);
+        Quit = (Button)findViewById(R.id.exit_btn);
+        HighScore = (Button)findViewById(R.id.viewcode_btn);
+        SetupHighScore = (Button)findViewById(R.id.start_btn);
+
+        // button start
+        SetupHighScore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, QuestionSetup.class);
+                Intent intent = new Intent(MainActivity.this, SetupHighScore.class);
                 startActivity(intent);
             }
         });
 
-        BT2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Manual.class);
-                startActivity(intent);
-            }
-        });
-
-        BT3.setOnClickListener(new View.OnClickListener() {
+        // chuyen den manual
+        Manual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, Manual.class);
@@ -43,7 +38,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        BT4.setOnClickListener(new View.OnClickListener() {
+        //chuyen den highscore
+        HighScore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HighScore.class);
+                startActivity(intent);
+            }
+        });
+
+        // thoat ung dung
+        Quit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();

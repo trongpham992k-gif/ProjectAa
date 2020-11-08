@@ -2,66 +2,54 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/imageViewMainmenu"
+    android:id="@+id/btnbacktomenumain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#CAF982">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+    <Button
+        android:id="@+id/BtnBackFromMainMenu"
+        android:layout_width="227dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="92dp"
+        android:foreground="@drawable/mainmenu"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/header" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="194dp"
-        android:layout_height="243dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="60dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/yrscore" />
+        app:layout_constraintVertical_bias="0.876" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="358dp"
-        android:layout_height="77dp"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="288dp"
+        android:layout_height="75dp"
         android:text="You Have Chosen Correct"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/BtnBackFromMainMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/TxtHighscore"
+        app:layout_constraintVertical_bias="0.598"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/TxtKQ"
+        android:id="@+id/TxtHighscore"
         android:layout_width="174dp"
         android:layout_height="242dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="24dp"
         android:padding="30dp"
         android:text=""
         android:textAlignment="center"
         android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="227dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="94dp"
-        android:foreground="@drawable/mainmenu"
-        android:text="Button"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="114dp" />
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
 </androidx.constraintlayout.widget.ConstraintLayout>

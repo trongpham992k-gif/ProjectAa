@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Manual"/>
+        <activity android:name=".HighScore"/>
+        <activity android:name=".SetupHighScore"/>
+        <activity android:name=".Question"/>
+        <activity android:name=".Result"/>
     </application>
 
 </manifest>

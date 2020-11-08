@@ -6,43 +6,33 @@
     android:layout_height="match_parent"
     android:background="#CAF982">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="121dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+    <Button
+        android:id="@+id/BtnBackFromMainMenu"
+        android:layout_width="227dp"
+        android:layout_height="82dp"
+        android:foreground="@drawable/mainmenu"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.903"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/manualsc" />
+        app:layout_constraintVertical_bias="0.915" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="376dp"
-        android:layout_height="243dp"
-        android:layout_marginBottom="120dp"
+        android:layout_width="265dp"
+        android:layout_height="398dp"
         android:text="Buoc 1: vao lam bai\n Buoc 2: xem diem cao\n Buoc 3: Thoat"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toTopOf="@+id/BtnBackFromMainMenu"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="8dp" />
-
-    <Button
-        android:id="@+id/BtnBackFromMainMenu"
-        android:layout_width="227dp"
-        android:layout_height="82dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginBottom="44dp"
-        android:foreground="@drawable/mainblue"
-        android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
