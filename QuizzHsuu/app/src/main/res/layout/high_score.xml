@@ -8,7 +8,7 @@
     android:background="#CAF982">
 
     <Button
-        android:id="@+id/BtnBackFromMainMenu"
+        android:id="@+id/btn_change"
         android:layout_width="227dp"
         android:layout_height="82dp"
         android:layout_marginTop="92dp"
@@ -30,7 +30,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textSize="30sp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toTopOf="@+id/BtnBackFromMainMenu"
+        app:layout_constraintBottom_toTopOf="@+id/btn_change"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"

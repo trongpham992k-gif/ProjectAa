@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -18,7 +17,7 @@ public class SetupHighScore extends Activity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.questionsetup);
 
-        BT1 = (Button) findViewById(R.id.BtnBackFromMainMenu);
+        BT1 = (Button) findViewById(R.id.btn_change);
         BT2 = (Button) findViewById(R.id.btn_continue);
 
         Spin1 = (Spinner) findViewById(R.id.spinner1);
@@ -41,7 +40,7 @@ public class SetupHighScore extends Activity  {
         BT2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SetupHighScore.this, Question.class);
+                Intent intent = new Intent(SetupHighScore.this, ChangSetup.class);
                 startActivity(intent);
             }
         });

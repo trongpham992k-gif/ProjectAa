@@ -12,7 +12,7 @@ public class Manual extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manual);
-        BT = (Button) findViewById(R.id.BtnBackFromMainMenu);
+        BT = (Button) findViewById(R.id.btn_change);
         BT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

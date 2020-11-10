@@ -24,6 +24,14 @@ public class Result extends Question {
 
         BT = (Button) findViewById(R.id.btn_result);
 
+        BT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Result.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

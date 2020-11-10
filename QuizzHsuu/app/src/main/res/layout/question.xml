@@ -55,15 +55,19 @@
             android:padding="10dp"
             />
     </RadioGroup>
+
     <Button
         android:id="@+id/btn_traloi"
-        android:layout_width="wrap_content"
+        android:layout_width="156dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/RadioGroupTraloi"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="27dp"
+        android:foreground="@drawable/continute"
         android:text="Trả lời"
-        android:textSize="25dp"
-        />
+        android:textSize="25dp" />
+
     <TextView
         android:id="@+id/TxtKetqua"
         android:layout_width="match_parent"
@@ -73,4 +77,16 @@
         android:layout_marginTop="30dp"
         android:textAlignment="center"
     />
+
+    <Button
+        android:id="@+id/pre_btn"
+        android:layout_width="176dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="186dp"
+        android:layout_toStartOf="@+id/btn_traloi"
+        android:foreground="@drawable/previous"
+        android:text="Previous"
+        android:textSize="23dp" />
 </RelativeLayout>

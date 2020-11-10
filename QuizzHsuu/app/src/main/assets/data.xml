@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Questionare>
+    <Item>
+        <ID>1</ID>
+        <Question>Is that Linda? – No, it__________</Question>
+        <AnswerA>is </AnswerA>
+        <AnswerB>not </AnswerB>
+        <AnswerC>isn't </AnswerC>
+        <AnswerD>are</AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>2</ID>
+        <Question>Are they your friends? – Yes, they ______</Question>
+        <AnswerA>is</AnswerA>
+        <AnswerB>have</AnswerB>
+        <AnswerC>are</AnswerC>
+        <AnswerD>has</AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>3</ID>
+        <Question>How do you spell________name? – C-U-O-N-G</Question>
+        <AnswerA>your  </AnswerA>
+        <AnswerB>they </AnswerB>
+        <AnswerC>you </AnswerC>
+        <AnswerD>he</AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>4</ID>
+        <Question>. Pleased to ___________you.</Question>
+        <AnswerA>it</AnswerA>
+        <AnswerB>old</AnswerB>
+        <AnswerC>meet</AnswerC>
+        <AnswerD>this</AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>5</ID>
+        <Question>How old are you? – I'm ________ years old.</Question>
+        <AnswerA>fine</AnswerA>
+        <AnswerB>friend</AnswerB>
+        <AnswerC>nice</AnswerC>
+        <AnswerD>nine</AnswerD>
+        <Answer>D</Answer>
+    </Item>
+    <Item>
+        <ID>6</ID>
+        <Question>They are good students. ...................books are new.</Question>
+        <AnswerA>Their</AnswerA>
+        <AnswerB>They</AnswerB>
+        <AnswerC>These</AnswerC>
+        <AnswerD>Those</AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>7</ID>
+        <Question>Ba ..................lunch at school .</Question>
+        <AnswerA>has</AnswerA>
+        <AnswerB>Have</AnswerB>
+        <AnswerC>Eat</AnswerC>
+        <AnswerD>does</AnswerD>
+        <Answer>B</Answer>
+    </Item>
+    <Item>
+        <ID>8</ID>
+        <Question>This is my father . ................name‟s Ha.</Question>
+        <AnswerA>His</AnswerA>
+        <AnswerB>He's</AnswerB>
+        <AnswerC>Her</AnswerC>
+        <AnswerD>She </AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>9</ID>
+        <Question>I go to school .................ten past twelve.</Question>
+        <AnswerA>in</AnswerA>
+        <AnswerB>on</AnswerB>
+        <AnswerC>at</AnswerC>
+        <AnswerD>for </AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>10</ID>
+        <Question> I‟d like some rice. I‟m ..............................</Question>
+        <AnswerA>hungry</AnswerA>
+        <AnswerB>hot</AnswerB>
+        <AnswerC>thirsty</AnswerC>
+        <AnswerD>full </AnswerD>
+        <Answer>A</Answer>
+    </Item>
+    <Item>
+        <ID>11</ID>
+        <Question>My friends usually go ........................ in the river.</Question>
+        <AnswerA>sailing</AnswerA>
+        <AnswerB>camping</AnswerB>
+        <AnswerC>walking</AnswerC>
+        <AnswerD>swimming </AnswerD>
+        <Answer>D</Answer>
+    </Item>
+    <Item>
+        <ID>12</ID>
+        <Question>How much is a .....................of toothpaste ?</Question>
+        <AnswerA>can</AnswerA>
+        <AnswerB>bar</AnswerB>
+        <AnswerC>tube</AnswerC>
+        <AnswerD>box </AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>13</ID>
+        <Question>It‟s very cold in the ................................. </Question>
+        <AnswerA>Summer</AnswerA>
+        <AnswerB>winter</AnswerB>
+        <AnswerC>spring</AnswerC>
+        <AnswerD>fall </AnswerD>
+        <Answer>B</Answer>
+    </Item>
+    <Item>
+        <ID>14</ID>
+        <Question>…………do you live ?A.What B. Who √C. Where D. How</Question>
+        <AnswerA>what</AnswerA>
+        <AnswerB>how</AnswerB>
+        <AnswerC>which</AnswerC>
+        <AnswerD>where </AnswerD>
+        <Answer>C</Answer>
+    </Item>
+    <Item>
+        <ID>15</ID>
+        <Question>She listens to ……….in the evening .</Question>
+        <AnswerA>Music</AnswerA>
+        <AnswerB>Books</AnswerB>
+        <AnswerC>Homwork</AnswerC>
+        <AnswerD>Television </AnswerD>
+        <Answer>A</Answer>
+    </Item>
+</Questionare>
